@@ -1,0 +1,21 @@
+ /*selector{ propiedad:valor; */
+    p{
+        color: red;
+    }
+    h1{
+        color: blue;
+        text-decoration-line: underline;
+        text-align: center;
+    }
+      span{
+       color: #21f21a;
+       font-weight: bold;
+       font-size: 20px;
+
+    }
+
+    .letra{
+        color: #C29228;
+        font-weight: bold;
+        font-size: 20px;
+    }
