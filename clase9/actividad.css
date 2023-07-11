@@ -3,10 +3,14 @@ a{
     color: blue;
 }
 h1{
-    color: red;
+    color:red;
+    text-align:center;
 
 }
 
 p{
     color: black;
+}
+body{
+    background:rgb(50, 205, 97)       
 }
