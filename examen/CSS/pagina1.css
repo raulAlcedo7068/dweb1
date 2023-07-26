@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h2 {
+    background-color: #797777;
+    text-align: center;
+    color: white;
+
+}
+
+#pagina1 {
+    width: 199px;
+    padding: 20px;
+    padding-bottom: 800px;
+}

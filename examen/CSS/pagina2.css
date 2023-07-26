@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 12px;
+}
+
+#caja2 {
+    width: 22%;
+    background-color: rgb(169, 176, 177);
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Lugrasimo', cursive;
+    text-shadow: 2px 2px 2px #e8f7b0;
+
+}
