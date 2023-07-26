@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.caja{
+    width: 50%;
+    margin: 10px auto;
+    border: 3px solid green ;
+    border-radius: 20px;
+    padding: 10px;
+}
+a {
+    text-decoration-line: nome;
+    background-color: green;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+a:hover{
+    background-color: blue;
+    color: orange;
+
+}

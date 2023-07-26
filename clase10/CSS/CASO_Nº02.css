@@ -1,0 +1,30 @@
+#menu li{
+    display: inline-block;
+}
+#menu a{
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    background-color: #17bdeb;
+    box-shadow: 0px -2px 0px 0px rgba(0, 0, 0, 0.5)inset;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #0c749c;
+    text-transform: uppercase;
+    font-size: .90em;
+    color: #fff;
+}
+body{
+    margin: 0em;
+    padding: 0em;
+    background-color: #2ed688;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #525252;
+}
+#menu a:hover{
+    opacity: 0.8;
+    background-color: rgb(255, 60, 158);
+    color: rgb(255, 249, 238);
+}
+a:active{
+    transform: scale(0.85);
+}

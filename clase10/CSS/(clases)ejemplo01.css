@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+.caja1{
+    /*border: linea estilo color*/
+    border:4px dashed orange;
+    margin: 20px;
+}
+    .caja2{
+        border:2px solid blue;
+        width: 500px;
+        margin-top: -15px;
+        margin-left: 30px;
+    }
+        .caja3{
+        border: 2px solid #abd620;
+        width: 50%;
+        margin: 20px auto;
+        padding: 5px;
+    }
+    .caja4{
+    border: 2px solid #abd620;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    /* pading: 10px 12px 8px 15px*/
+    background-color: cadetblue;
+    color: white;
+    border-radius: 20px;
+    }
+    .caja5{
+        width: 50%;
+        margin: 10px auto;
+        padding: 10px 12px 8px 15px;
+        background-color: rgb(83, 32, 221);
+        color: white;
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 30px; 
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 10px;    
+        /* border-top-right-radius: 10px 30px 10px 30px */
+        box-shadow: 10px 5px 20px #eed42a inset;
+    }
+    
