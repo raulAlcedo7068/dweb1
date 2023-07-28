@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/stylebos.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: azure;
+            margin: 50px;
+        }
+
+        h3 {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .backbox {
+            width: 220px;
+            height: 220px;
+            background-color: #353535;
+            border-radius: 20px;
+            margin: 0 auto;
+        }
+
+        .recuadro1 {
+            width: 200px;
+            height: 200px;
+            background-color: #aa0;
+            border-radius: 50%;
+            padding: 10px;
+            transition: transform 3000ms;
+
+        }
+
+        .recuadro1:hover {
+            /*transform:translate(65px,65px);*/
+            /*transform: translateY(54px); /*translateX(px)*/
+            /*transform: rotate(180deg);/* deg=grados */
+            /*transform: scale(1.2);/* 1=x se mantiene*/
+            /*transform: skewX(-30deg);*/
+            /* transform:matrix(scalex(), skewY(), shewx(), scaleY(),translateX(),translateY())*/
+            transform: matrix(1.2, .45, .45, 1.2, 200, 20);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="backbox">
+        <div class="recuadro1">
+            <h3>Recuadro 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique iusto voluptatem laborum facilis
+                consequatur.
+                Aspernatur consequatur inventore totam nemo et ipsam provident, illo recusandae consequuntur, officiis,
+                ratione aperiam? Omnis, sed.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
