@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ header{
+    background-color: black;
+    width: 100%;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    text-shadow: 10px 10px 5px gray;
+}
+nav{
+    background-color: #757575;
+    width: 100%;
+}
+nav ul{
+    background-color: #757575;
+    width: 100%;
+    list-style-type:none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-flex;
+}
+nav ul li a{
+    text-decoration-line:none;
+    color:white;
+    padding: 10px;
+    width: 150px;
+    transition-property: all;
+    transition-duration: 1800ms;
+}
+nav ul li a:hover{
+    background-color: white;
+    opacity: 0.9;
+    color: #757575
+}
