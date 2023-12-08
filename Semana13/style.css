@@ -110,48 +110,6 @@ body {
 
 .footer a {
   padding: 0.5rem;
-  color: var(--white);
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
-    flex-direction: column;  
-  }
-
-  .card-body {
-    width: 100%;    
-    order: 2;
-    text-align: center;
-    padding: 1.5rem 1rem;
-  }
-
-  .card-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .card-description {
-    margin-bottom: 1.5rem;
-  }
-
-  .stats {
-    flex-direction: column;
-  }
-
-  .stats .item {
-    margin-bottom: 1rem;
-  }
-
-  .card-img {
-    width: 100%;
-    order: 1;
-  }
-
-  .card-img img, .img-accent {
-    border-radius: 0.5rem 0.5rem 0 0;
-  }
-
-  
+  color: var(--white);  
   
 }
